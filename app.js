@@ -7,7 +7,7 @@ function exibirTexoNaTela(id, texto){
 }
 function adicionarAmigo(){
     let listaNomes = document.getElementById('amigo').value;
-    if (listaNomes==='') {
+    if (listaNomes === '') {
         exibirTexoNaTela('listaAmigos', nomes.join('<br>')+'<br>Favor adicionar um nome válido !!');
     }else{
         if (nomes.includes(listaNomes)){
